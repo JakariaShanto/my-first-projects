@@ -8,12 +8,14 @@ body {
   font-family: 'Lato', sans-serif;
 
 }
-
+header{
+  width: 100%;
+}
 /* full container style */
 .full-container {
   display: flex;
   align-items: center;
-  width: 100%;
+  width: 120%;
   height: 850px;
   background: rgba(229, 84, 115, 0.2);
 }
@@ -24,8 +26,7 @@ body {
   flex-direction: column;
   width: 700px;
   text-align: left;
-  margin: 0 200px;
-  padding: 20px;
+  padding: 200px;
 
 }
 
@@ -102,6 +103,13 @@ body {
   background-color: #a4abca;
   border-radius: 50% 50% 0 0;
 }
+
+.box-one, a {
+  text-decoration: none;
+  color: #E55473;
+  font-size: 14px;
+
+}
 /* third-section-social-image */
 
 .third-section {
@@ -137,6 +145,7 @@ body {
 /* four-section style */
 
 .nb-four-container {
+
   display: flex;
   align-items: center;
   gap: 100px;
@@ -144,6 +153,7 @@ body {
   padding: 200px;
   height: 150px;
   width: 100%;
+  
 
 }
 
