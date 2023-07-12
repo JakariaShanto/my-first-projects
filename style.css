@@ -67,6 +67,14 @@ header{
   padding: 20px 30px 1px 0;
 }
 
+.bonus-section{
+  display: flex;
+  justify-content: space-around;
+  height: 200px;
+  width: 100%;
+}
+
+
 /* second-box-section */
 .curve-box-container {
   display: flex;
@@ -83,6 +91,7 @@ header{
   height: 400px;
   background-color: #e7bdbd;
   border-radius: 50% 50% 0 0;
+
 }
 
 .box-two{
@@ -138,6 +147,7 @@ header{
   display: flex;
   justify-content: space-around;
   gap: 20px;
+  
 }
 
 
