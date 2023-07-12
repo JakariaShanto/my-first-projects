@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
 body {
   font-family: 'Lato', sans-serif;
 
@@ -55,7 +61,34 @@ body {
   padding: 20px 30px 1px 0;
 }
 
+/* third-section-social-image */
 
+.third-section{
+  text-align: center;
+  margin: 200px;
+  
+}
+
+.social-header{
+  font-size: 40px;
+  color: #E55473;
+  margin-bottom: 40px;
+
+}
+.social-description{
+  font-size: 14px;
+  color: #272727;
+  margin-bottom: 40px;
+
+}
+
+
+
+.social-flower{
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;  
+}
 
 
 
@@ -80,6 +113,47 @@ body {
 }
 .pink-color{
   color: #E55473;
+}
+
+/* six-section-deals */
+
+.half-container{
+  width: 1440px;
+  height: 500px;
+  background-image: url(/flower-shop-assignment/flower-asset/Rectangle\ 9.png);
+  margin: 240px;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.deals-section{
+  text-align: center;
+  font-size: 40px;
+  position: absolute;
+  margin: 122px 530px 280px 530px;
+  color: #6e4545;
+  
+}
+.deals-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 200px;
+
+}
+.deals-input{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+.deals{
+  width: 170px;
+  padding: 20px 40px;
+  border-radius: 8px;
+  color: #ffffff;
+  border:rgba(229, 84, 115, 0.1);
+  font-size: 14px;
 }
 
 /* footer-section-style */
