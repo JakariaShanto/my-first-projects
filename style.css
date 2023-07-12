@@ -121,7 +121,7 @@ body {
   width: 1440px;
   height: 500px;
   background-image: url(/flower-shop-assignment/flower-asset/Rectangle\ 9.png);
-  margin: 240px;
+  margin: 130px;
   background-repeat: no-repeat;
   position: relative;
 }
@@ -162,7 +162,7 @@ body {
   padding: 50px;
   height: 200px;
   width: 100%;
-  background: rgba(229, 84, 115, 0.3);
+  background: rgb(230, 106, 106, 0.5);
 }
 .last-part{
   font-size: 30px;
